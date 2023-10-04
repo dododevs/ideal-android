@@ -1,0 +1,31 @@
+<vector android:height="512dp" android:viewportHeight="121.08"
+    android:viewportWidth="121.08" android:width="512dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000"
+        android:pathData="M60.54,6.22A54.32,54.32 0,0 1,110.84 40.02,54.32 54.32,0 0,1 98.55,99.36 54.32,54.32 0,0 1,38.96 110.39,54.32 54.32,0 0,1 6.23,59.39"
+        android:strokeColor="@color/logoLightFill" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="12.443"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M94.79,69.97A35.53,35.53 0,0 1,53.97 95.46,35.53 35.53,0 0,1 25.2,56.87 35.53,35.53 0,0 1,61.29 25.03"
+        android:strokeColor="@color/logoLightFill" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="12.443"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M77.93,29.56A35.53,35.53 0,0 1,94.99 51.86"
+        android:strokeColor="@color/logoLightFill" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="12.443"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M68.94,42.12A25.57,25.57 0,0 1,81.22 58.17"
+        android:strokeColor="@color/logoLightFill" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="8.95545"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M61.23,51.78A18.22,18.22 0,0 1,69.98 63.22"
+        android:strokeColor="@color/logoLightFill" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="6.38298"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M60.54,6.22A54.32,54.32 0,0 1,110.84 40.02,54.32 54.32,0 0,1 98.55,99.36 54.32,54.32 0,0 1,38.96 110.39,54.32 54.32,0 0,1 6.23,59.39"
+        android:strokeColor="@color/logoLightFill" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="12.443"/>
+    <path android:fillColor="@color/logoLightFill"
+        android:pathData="M9.81,39.42m-9,0a9,9 0,1 1,18.01 0a9,9 0,1 1,-18.01 0"
+        android:strokeColor="#00000000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="5.12706"/>
+</vector>

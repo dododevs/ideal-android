@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/antiFlashWhite">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/toolbar"
+        app:navigationIcon="@drawable/ic_arrow_back"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:elevation="2dp"
+        android:transitionName="profile_picture"
+        android:id="@+id/activity_user_own_profile_picture"
+        app:shapeAppearance="@style/ShapeAppearance.Image.Round"/>
+
+    <revolver.ideal.ui.view.InterTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Frat'm a' Sneakers"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:specimenStyle="bold"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="24dp"
+        android:id="@+id/tabs"
+        app:tabBackground="@drawable/bg_activity_user_own_profile_tab"
+        app:tabTextColor="#3C3C43"
+        app:tabSelectedTextColor="@color/black"
+        app:tabIndicatorHeight="0dp"
+        app:tabTextAppearance="@style/TextAppearance.TabLayout.Tab"
+        android:background="@drawable/bg_activity_user_own_profile_tabs"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager"/>
+
+</LinearLayout>

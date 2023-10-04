@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="specimenStyle" format="enum">
+        <enum name="black" value="0"/>
+        <enum name="bold" value="1"/>
+        <enum name="extraBold" value="2"/>
+        <enum name="extraLight" value="3"/>
+        <enum name="light" value="4"/>
+        <enum name="medium" value="5"/>
+        <enum name="regular" value="6"/>
+        <enum name="semiBold" value="7"/>
+        <enum name="thin" value="8"/>
+    </attr>
+    <declare-styleable name="CircularLayout">
+        <attr name="radius" format="dimension"/>
+        <attr name="centerLayout" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="InterTextView">
+        <attr name="specimenStyle"/>
+    </declare-styleable>
+    <declare-styleable name="InterEditText">
+        <attr name="specimenStyle"/>
+    </declare-styleable>
+</resources>

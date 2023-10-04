@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="oval" android:tint="#89F14C5D"/>
+    </item>
+    <item android:gravity="center" android:top="36dp" android:bottom="36dp"
+        android:left="36dp" android:right="36dp">
+        <shape android:shape="oval" android:tint="@color/brandDark">
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="@color/brandDarker" android:radius="128dp"/>
+    </item>
+    <item android:drawable="@drawable/logo"
+        android:top="56dp" android:bottom="56dp"
+        android:left="56dp" android:right="56dp">
+    </item>
+</layer-list>

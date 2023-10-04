@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <FrameLayout
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_fragment_user_settings_profile_picture">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_gravity="center"
+                    android:elevation="2dp"
+                    android:transitionName="profile_picture"
+                    android:id="@+id/fragment_user_settings_profile_picture"
+                    app:shapeAppearance="@style/ShapeAppearance.Image.Round"/>
+
+            </FrameLayout>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Frat'm a' Sneakers"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:specimenStyle="bold"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/fragment_user_settings_edit_profile_btn"
+                style="@style/Theme.Ideal.MaterialButton"
+                android:focusable="true"
+                android:clickable="true"
+                android:text="@string/fragment_user_settings_edit_profile_btn"
+                android:textColor="@color/brandDark"/>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="@string/fragment_user_settings_header_account"
+                android:textSize="16.8sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_account_brand"
+                android:drawablePadding="4dp"
+                app:specimenStyle="semiBold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/neutral_400"/>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/fragment_user_settings_change_password"
+                android:text="@string/fragment_user_settings_change_password"
+                android:textSize="15.4sp"
+                android:textColor="@color/neutral_400"
+                android:drawableEnd="@drawable/ic_chevron_right"
+                app:specimenStyle="medium"/>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/fragment_user_settings_content_settings"
+                android:text="@string/fragment_user_settings_content_settings"
+                android:textSize="15.4sp"
+                android:textColor="@color/neutral_400"
+                android:drawableEnd="@drawable/ic_chevron_right"
+                app:specimenStyle="medium"/>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/fragment_user_settings_social"
+                android:text="@string/fragment_user_settings_social"
+                android:textSize="15.4sp"
+                android:textColor="@color/neutral_400"
+                android:drawableEnd="@drawable/ic_chevron_right"
+                app:specimenStyle="medium"/>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/fragment_user_settings_language"
+                android:text="@string/fragment_user_settings_language"
+                android:textSize="15.4sp"
+                android:textColor="@color/neutral_400"
+                android:drawableEnd="@drawable/ic_chevron_right"
+                app:specimenStyle="medium"/>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/fragment_user_settings_privacy"
+                android:text="@string/fragment_user_settings_privacy"
+                android:textSize="15.4sp"
+                android:textColor="@color/neutral_400"
+                android:drawableEnd="@drawable/ic_chevron_right"
+                app:specimenStyle="medium"/>
+
+            <revolver.ideal.ui.view.InterTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/fragment_user_settings_header_notifications"
+                android:textSize="16.8sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_notifications_settings"
+                android:drawablePadding="4dp"
+                app:specimenStyle="semiBold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/neutral_400"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <revolver.ideal.ui.view.InterTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingVertical="4dp"
+                    android:id="@+id/fragment_user_settings_new_for_you"
+                    android:text="@string/fragment_user_settings_new_for_you"
+                    android:textSize="15.4sp"
+                    android:textColor="@color/neutral_400"
+                    app:specimenStyle="medium"/>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:thumb="@drawable/switch_thumb"
+                    app:track="@drawable/switch_track"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <revolver.ideal.ui.view.InterTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingVertical="4dp"
+                    android:id="@+id/fragment_user_settings_account_activity"
+                    android:text="@string/fragment_user_settings_account_activity"
+                    android:textSize="15.4sp"
+                    android:textColor="@color/neutral_400"
+                    app:specimenStyle="medium"/>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:thumb="@drawable/switch_thumb"
+                    app:track="@drawable/switch_track"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <revolver.ideal.ui.view.InterTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingVertical="4dp"
+                    android:id="@+id/fragment_user_settings_opportunities"
+                    android:text="@string/fragment_user_settings_opportunities"
+                    android:textSize="15.4sp"
+                    android:textColor="@color/neutral_400"
+                    app:specimenStyle="medium"/>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:thumb="@drawable/switch_thumb"
+                    app:track="@drawable/switch_track"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

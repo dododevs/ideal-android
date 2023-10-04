@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ideal.</string>
+    <string name="apdu_service_description">Test service</string>
+    <string name="apdu_service_aid_group_description">Test AID group description</string>
+    <string name="cd_activity_share_big_logo">Main button with big logo, to initiate transmission</string>
+    <string name="fragment_user_settings_header_account">Account</string>
+    <string name="fragment_user_settings_change_password">Change password</string>
+    <string name="fragment_user_settings_content_settings">Content settings</string>
+    <string name="fragment_user_settings_social">Social</string>
+    <string name="fragment_user_settings_language">Language</string>
+    <string name="fragment_user_settings_privacy"><![CDATA[Privacy & Security]]></string>
+    <string name="fragment_user_settings_header_notifications">Notifications</string>
+    <string name="fragment_user_settings_new_for_you">New for you</string>
+    <string name="fragment_user_settings_account_activity">Account activity</string>
+    <string name="fragment_user_settings_opportunities">Opportunities</string>
+    <string name="activity_user_own_profile_tab_data">Personal data</string>
+    <string name="activity_user_own_profile_tab_social">Social</string>
+    <string name="fragment_user_own_profile_personal_data_header_name">Name</string>
+    <string name="fragment_user_own_profile_personal_data_first_name">Giovanni</string>
+    <string name="fragment_user_settings_edit_profile_btn">Edit profile</string>
+    <string name="fragment_user_own_profile_personal_data_last_name">Muciaccia</string>
+    <string name="fragment_user_own_profile_personal_data_header_phone">Phone number</string>
+    <string name="fragment_user_own_profile_personal_data_phone">+33 333 333 33 33</string>
+    <string name="fragment_user_own_profile_personal_data_header_email">Email</string>
+    <string name="fragment_user_own_profile_personal_data_email">info@getideal.app</string>
+    <string name="fragment_user_own_profile_personal_data_header_address">Address</string>
+    <string name="fragment_user_own_profile_personal_data_address">via dei Cazzi Spinosi 10</string>
+    <string name="fragment_user_own_profile_personal_data_header_website">Website</string>
+    <string name="fragment_user_own_profile_personal_data_website">getideal.app</string>
+</resources>
